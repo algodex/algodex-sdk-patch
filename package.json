@@ -1,0 +1,41 @@
+{
+  "name": "@algodex/algodex-sdk",
+  "version": "1.1.17",
+  "description": "API calls for interacting with the Algorand blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testDebug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand ",
+    "testOrders": "npm test -- Order"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:algodex/algodex-sdk-patch.git"
+  },
+  "keywords": [
+    "algodex",
+    "algorand"
+  ],
+  "author": "Algodex Team",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/algodex/algodex-sdk/issues"
+  },
+  "homepage": "https://github.com/algodex/algodex-sdk#readme",
+  "dependencies": {
+    "@json-rpc-tools/utils": "^1.7.6",
+    "@randlabs/myalgo-connect": "^1.0.1",
+    "algosdk": "^1.13.1",
+    "axios": "^0.21.4",
+    "big.js": "^6.1.1",
+    "js-big-decimal": "^1.3.4",
+    "minimist": "^1.2.5",
+    "mocha": "^9.0.2",
+    "text-encoding": "^0.7.0",
+    "tslib": "^2.3.1",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
