@@ -55,7 +55,7 @@ module.exports = {
   PUBLIC_TEST_ALGO_ORDERBOOK_APPID: 22045503,
   PUBLIC_TEST_ASA_ORDERBOOK_APPID: 22045522,
 
-  PROD_ALGOD_SERVER: 'https://xna-mainnet-api.algonode.cloud ',
+  PROD_ALGOD_SERVER: 'https://xna-mainnet-api.algonode.cloud',
   PROD_ALGOD_PORT:
     'ALGODEX_ALGOD_PORT' in process.env ? process.env.ALGODEX_ALGOD_PORT : '',
   PROD_ALGOD_TOKEN:

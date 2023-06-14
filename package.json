@@ -1,6 +1,6 @@
 {
   "name": "@algodex/algodex-sdk-patch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API calls for interacting with the Algorand blockchain",
   "main": "index.js",
   "scripts": {
